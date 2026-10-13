@@ -1,0 +1,30 @@
+# SYRM
+
+SYRM captures real-world human demonstrations across physical tasks and environments for robotics, embodied AI, and physical AI teams.
+
+## What SYRM Provides
+
+- Human demonstration data collected in homes, kitchens, shops, workshops, warehouses, outdoor environments, and other real-world settings.
+- Structured multimodal datasets for robot training pipelines.
+- First-person task demonstrations with video, metadata, microtask segmentation, sensor traces, trajectories, and quality review.
+- Custom data collection programs scoped around a customer's task list, environment requirements, capture setup, and delivery criteria.
+
+## Core Topics
+
+- Physical AI training data
+- Robotics datasets
+- Embodied AI
+- Human demonstrations
+- Egocentric video capture
+- Manipulation trajectories
+- Multimodal robot learning data
+- Real-world data collection
+
+## Primary Page
+
+https://www.syrm.ai/
+
+## Contact
+
+Use the collection request form at:
+https://www.syrm.ai/#request
