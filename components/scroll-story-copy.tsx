@@ -9,17 +9,17 @@ const beats = [
     body: 'Human demonstrations across real tasks and environments, captured reliably to your specification.',
   },
   {
-    eyebrow: '01 / OPERATIONS',
+    eyebrow: 'OPERATIONS',
     title: <>Your collection engine<br/><em>in the real world.</em></>,
     body: 'Your task list, capture rules, and quality thresholds. Our trained demonstrators, environments, supervision, and recurring delivery operation.',
   },
   {
-    eyebrow: '02 / DATA STEWARDSHIP',
+    eyebrow: 'DATA STEWARDSHIP',
     title: <>Collected with integrity.<br/><em>Delivered with exclusivity.</em></>,
     body: 'Every program is collected for a defined client purpose, governed with privacy safeguards, and delivered without resale.',
   },
   {
-    eyebrow: '03 / COVERAGE',
+    eyebrow: 'COVERAGE',
     title: <>The diversity of the real world.<br/><em>Captured.</em></>,
     body: 'Across tasks, environments, and industries, we build diverse collection programs around the real work your systems need to understand.',
   },

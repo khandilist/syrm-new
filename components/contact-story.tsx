@@ -146,7 +146,7 @@ export default function ContactStory() {
           alt="Wireframe human and robot hands reaching toward each other"
         />
         <div className={`contact-reveal ${ready ? 'ready' : ''}`} inert={!ready}>
-          <span className="section-index">06 / START A COLLECTION</span>
+          <span className="section-index">START A COLLECTION</span>
           <h2>What does your robot<br />need to learn?</h2>
 
           {successMessage ? (

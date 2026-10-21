@@ -96,8 +96,7 @@ export default function BrandStory() {
                             </p>
 
                             <p>
-                                At SYRM, we collect those actions from the real world-turning everyday
-                                demonstrations into a shared foundation for useful intelligence.
+                                At SYRM, we collect those actions from the real world—turning everyday demonstrations into a shared foundation for useful intelligence.
                             </p>
                         </div>
                     </div>

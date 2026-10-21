@@ -20,7 +20,7 @@ export default function CoverageStory(){
   const all=groups.flatMap(g=>g.items);
   const shown=active===6?all:groups[active].items;
   return <div className={`coverage-sticky shell continuous-coverage ${active===6?'show-all':''}`}>
-    <div className="coverage-copy"><span className="section-index">04 / COVERAGE</span><p>The collection network comes forward—six categories at a time.</p></div>
+    <div className="coverage-copy"><span className="section-index">COVERAGE</span><p>The collection network comes forward—six categories at a time.</p></div>
     <div className="coverage-scenes">{chapters.map((group,g)=><article className={`coverage-scene ${g===active?'active':''} ${g===groups.length?'finale':''}`} key={group.kicker} aria-hidden={g!==active}>
       {g<groups.length&&<span className="coverage-label">Collection categories</span>}
       <h3>{g<groups.length?group.kicker:group.title}</h3>

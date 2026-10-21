@@ -20,6 +20,10 @@ export default defineConfig(async () => {
       ],
       dedupe: ['react', 'react-dom'],
     },
+    server: {
+      host: '0.0.0.0',
+      port: 3000,
+    },
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
@@ -27,7 +31,7 @@ export default defineConfig(async () => {
       chunkSizeWarningLimit: 600,
       rollupOptions: {
         output: {
-          manualChunks(id) {
+          manualChunks(id: string) {
             if (id.includes('/node_modules/three/')) {
               return 'vendor-three';
             }

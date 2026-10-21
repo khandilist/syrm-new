@@ -56,6 +56,95 @@ const languagePaths: Record<Language, string> = {
 const translations: Record<string, TranslationPair> = {
     'Story': ['故事', '스토리'],
     'Coverage': ['采集范围', '수집 분야'],
+    'About': ['关于', '소개'],
+    'Datasets': ['数据集', '데이터셋'],
+    'About Us': ['关于我们', '회사 소개'],
+    'ABOUT US': ['关于我们', '회사 소개'],
+    'The collection operation': ['数据背后的', '데이터 뒤의'],
+    'behind the data': ['采集运营', '수집 운영'],
+    'Physical-AI teams need demonstrations that reflect how people actually work: varied tools, layouts, objects, and routines. SYRM runs the operational layer behind that data. We source and brief demonstrators, organize real-world sessions, manage capture, and review delivery sets against the collection specification.': [
+        '物理 AI 团队需要能够反映人类真实工作方式的示范：多样的工具、布局、物体与流程。SYRM 承担数据背后的运营层：我们招募并培训示范人员、组织真实场景采集、管理拍摄全过程，并严格按照采集规格审核交付数据。',
+        '피지컬 AI 팀은 다양한 도구, 작업 환경, 사물 및 루틴 등 실제 사람들의 작업 방식을 온전히 반영한 시연 데이터가 필요합니다. SYRM은 이러한 데이터 이면의 운영 계층을 총괄합니다. 시연자 섭외 및 브리핑부터 실제 현장 세션 구성, 캡처 관리, 수집 사양에 맞춘 최종 납품 데이터셋 검수까지 전 과정을 직접 수행합니다.',
+    ],
+    'Request Datasets': ['申请数据集', '데이터셋 요청'],
+    'Request Datasets ↗': ['申请数据集 ↗', '데이터셋 요청 ↗'],
+    'Food & Home': ['食品与家庭', '식품 및 가정'],
+    'Industry & Workshop': ['工业与工坊', '산업 및 작업장'],
+    'Field & Infrastructure': ['现场与基础设施', '현장 및 인프라'],
+    'People & Service': ['人员与服务', '인력 및 서비스'],
+    'Dexterous Manipulation': ['灵巧操作', '정밀 조작'],
+    'Specialized Environments': ['特殊环境', '특수 환경'],
+    'Click to enlarge': ['点击放大', '클릭하여 확대'],
+    'Cleaning & Sanitation': ['清洁与卫生', '청소 및 위생'],
+    'Food Processing': ['食品加工', '식품 가공'],
+    'Food & Beverage': ['食品与饮料', '식음료'],
+    'Manufacturing': ['制造业', '제조업'],
+    'Sorting & Packing': ['分拣与包装', '분류 및 포장'],
+    'Folding & Textile Work': ['折叠与纺织作业', '접기 및 섬유 작업'],
+    'Washing Carpet': ['清洗地毯', '카펫 세척'],
+    'Chopping Chinese Cabbage': ['切白菜', '배추 썰기'],
+    'Making Iced Tea': ['制作冰茶', '아이스티 만들기'],
+    'Making Banana Bolen Pastry': ['制作香蕉酥皮点心', '바나나 볼렌 페이스트리 만들기'],
+    'Screen Printing Caps': ['帽子丝网印刷', '모자 실크스크린 인쇄'],
+    'Screen Printing Tote Bags': ['帆布包丝网印刷', '에코백 실크스크린 인쇄'],
+    'Curling Eyelashes': ['卷睫毛', '속눈썹 롤링'],
+    'Wrapping Kerupuk Crackers': ['包装虾片', '크루푹 과자 포장'],
+    'Folding Umbrella': ['折叠雨伞', '우산 접기'],
+    'Human demonstrations in culinary prep, commercial kitchens, food processing, and cleaning.': [
+        '在烹饪预备、商用厨房、食品加工与清洁环境中的人类示范。',
+        '요리 준비, 상업용 주방, 식품 가공 및 청소 환경에서의 사람 시연 데이터입니다.',
+    ],
+    'Specialized industrial craftsmanship, fabrication line tasks, and precision manual manufacturing.': [
+        '专业工业工艺、制造流水线作业与精密手工制造。',
+        '전문 산업 공예, 제조 라인 작업 및 정밀 수작업 제조 데이터입니다.',
+    ],
+    'High-frequency finger articulation, deformable object folding, and sub-millimeter hand pose tasks.': [
+        '高频手指灵巧运动、可形变物体折叠与亚毫米级手势任务。',
+        '고빈도 손가락 관절 움직임, 변형 가능한 물체 접기 및 서브밀리미터 수준의 손 자세 작업입니다.',
+    ],
+    'First-person perspective manual carpet cleaning, deep rotary shampooing, and water extraction on floor rugs.': [
+        '第一人称视角手工地毯清洗、深度旋转刷洗与地毯抽水作业。',
+        '1인칭 시점의 수작업 카펫 청소, 딥 로터리 샴푸 작업 및 러그 수분 추출 과정입니다.',
+    ],
+    'Knife grip kinematics, precise slicing rhythm, and systematic chopping of Chinese cabbage leaves.': [
+        '运刀抓握运动学、精准切片节奏以及系统化的白菜叶切碎作业。',
+        '칼 그립 기구학, 정밀한 썰기 리듬, 체계적인 배추 잎 썰기 과정입니다.',
+    ],
+    'Beverage ingredient pouring, sugar syrup dissolution stirring, ice scoop transfer, and liquid leveling.': [
+        '饮料原料倾倒、糖浆溶解搅拌、冰块舀取转移以及液面调平。',
+        '음료 재료 붓기, 시럽 용해 교반, 얼음 스쿱 이동 및 액체 레벨 조절 과정입니다.',
+    ],
+    'Artisan pastry rolling, banana and cheese filling wrapping, edge tucking, and tray arrangement for baking.': [
+        '手工酥皮擀压、香蕉与芝士馅料包裹、折边封口以及烘焙托盘码放。',
+        '장인식 페이스트리 밀기, 바나나 및 치즈 소 감싸기, 모서리 접기 및 베이킹 트레이 정렬 과정입니다.',
+    ],
+    'Curved surface screen printing on headwear with manual screen alignment and squeegee pressure control.': [
+        '帽类弧面丝网印刷，配合手动网版对位与刮刀压力控制。',
+        '수동 스크린 정렬 및 스퀴지 압력 제어를 통한 모자 곡면 실크스크린 인쇄입니다.',
+    ],
+    'Fabric tote bag manual screen printing with registration alignment and continuous ink stroke.': [
+        '帆布手提包手工丝网印刷，包含对位套印与连续均匀刮墨。',
+        '정렬 맞춤과 연속 잉크 스트로크를 활용한 패브릭 토트백 수동 실크스크린 인쇄입니다.',
+    ],
+    'Micro-dexterity eyelash rolling and delicate curling around heated cylindrical mandrels.': [
+        '围绕加热圆柱芯轴进行的高灵巧度睫毛卷绕与精细卷翘作业。',
+        '가열된 원통형 맨드릴 주위로 정밀하게 속눈썹을 롤링하고 섬세하게 컬링하는 작업입니다.',
+    ],
+    'Bimanual sorting and rapid food snack packaging into thin polymer wrappers with hand-twist sealing.': [
+        '双手协同分拣以及将膨化零食快速装入超薄塑料包装袋并手动拧紧封口。',
+        '양손 분류 및 얇은 폴리머 포장지에 스낵을 빠르게 넣고 손으로 비틀어 밀봉하는 작업입니다.',
+    ],
+    'Multi-step manual rib folding, fabric tensioning, spine alignment, and strap securing for umbrellas.': [
+        '多步骤手工伞骨折叠、伞布张紧、中棒对齐以及绑带固定。',
+        '우산 살대 다단계 접기, 원단 장력 조절, 중심축 정렬 및 스트랩 고정 과정입니다.',
+    ],
+    'Request this dataset ↗': ['申请此数据集 ↗', '이 데이터셋 요청 ↗'],
+    'Previous videos': ['上一个视频', '이전 동영상'],
+    'Next videos': ['下一个视频', '다음 동영상'],
+    'Pause video': ['暂停视频', '동영상 일시정지'],
+    'Unmute video': ['开启声音', '음소거 해제'],
+    'Mute video': ['静音视频', '동영상 음소거'],
+    'Fullscreen': ['全屏', '전체 화면'],
     'Contact': ['联系', '문의'],
     'Email': ['邮箱', '이메일'],
     'Start a collection': ['开始采集', '수집 시작'],
@@ -68,28 +157,27 @@ const translations: Record<string, TranslationPair> = {
         '按照您的规格，可靠采集真实任务和环境中的人类示范。',
         '요구 사양에 맞춰 실제 작업과 환경에서 사람의 시연을 안정적으로 수집합니다.',
     ],
-    '01 / OPERATIONS': ['01 / 运营', '01 / 운영'],
+    'OPERATIONS': ['运营', '운영'],
     'Your collection engine': ['您的数据采集引擎', '여러분의 데이터 수집 엔진'],
     'in the real world.': ['扎根真实世界。', '현실 세계에서.'],
     'Your task list, capture rules, and quality thresholds. Our trained demonstrators, environments, supervision, and recurring delivery operation.': [
         '您的任务清单、采集规则和质量标准。我们的示范人员、场景、监督与持续交付机制。',
         '작업 목록, 수집 규칙, 품질 기준에 맞춰 숙련된 시연자, 환경, 감독, 정기 납품 운영을 제공합니다.',
     ],
-    '02 / DATA STEWARDSHIP': ['02 / 数据治理', '02 / 데이터 관리'],
+    'DATA STEWARDSHIP': ['数据治理', '데이터 관리'],
     'Collected with integrity.': ['以诚信采集。', '정직하게 수집합니다.'],
     'Delivered with exclusivity.': ['专属交付。', '독점적으로 제공합니다.'],
     'Every program is collected for a defined client purpose, governed with privacy safeguards, and delivered without resale.': [
         '每个项目都服务于明确的客户目的，在隐私保护下治理，并且不会转售。',
         '모든 프로그램은 명확한 고객 목적에 맞춰 수집되며, 개인정보 보호 기준 아래 관리되고 재판매 없이 제공됩니다.',
     ],
-    '03 / COVERAGE': ['03 / 覆盖范围', '03 / 커버리지'],
+    'COVERAGE': ['覆盖范围', '커버리지'],
     'The diversity of the real world.': ['真实世界的多样性。', '현실 세계의 다양성.'],
     'Captured.': ['被采集。', '수집합니다.'],
     'Across tasks, environments, and industries, we build diverse collection programs around the real work your systems need to understand.': [
         '跨越任务、环境与行业，我们围绕系统需要理解的真实工作构建多样化采集项目。',
         '작업, 환경, 산업 전반에서 시스템이 이해해야 하는 실제 업무를 중심으로 다양한 수집 프로그램을 구축합니다.',
     ],
-    '04 / COVERAGE': ['04 / 覆盖范围', '04 / 커버리지'],
     'The collection network comes forward—six categories at a time.': [
         '采集网络逐步展开——每次呈现六个类别。',
         '수집 네트워크가 여섯 개 카테고리씩 전면에 나타납니다.',
@@ -151,7 +239,11 @@ const translations: Record<string, TranslationPair> = {
         '在 SYRM，我们从真实世界采集这些行动，把日常示范转化为有用智能的共享基础。',
         'SYRM은 현실 세계의 이러한 행동을 수집해 일상적인 시연을 유용한 지능을 위한 공유 기반으로 전환합니다.',
     ],
-    '05 / FEATURED DATASETS': ['05 / 精选数据集', '05 / 주요 데이터셋'],
+    'At SYRM, we collect those actions from the real world-turning everyday demonstrations into a shared foundation for useful intelligence.': [
+        '在 SYRM，我们从真实世界采集这些行动，把日常示范转化为有用智能的共享基础。',
+        'SYRM은 현실 세계의 이러한 행동을 수집해 일상적인 시연을 유용한 지능을 위한 공유 기반으로 전환합니다.',
+    ],
+    'FEATURED DATASETS': ['精选数据集', '주요 데이터셋'],
     'Featured data captures.': ['精选数据采集案例。', '주요 데이터 캡처.'],
     'A compact sample of the task categories and specifications SYRM can collect, organize, and review for training pipelines.': [
         '这是 SYRM 可为训练流程采集、整理和审核的任务类别与规格样本。',
@@ -296,7 +388,7 @@ const translations: Record<string, TranslationPair> = {
     'Python snippet copied': ['Python 片段已复制', 'Python 스니펫이 복사되었습니다'],
     'Your next breakthrough.': ['您的下一次突破。', '다음 돌파구.'],
     'Starts in the real world.': ['从真实世界开始。', '현실 세계에서 시작됩니다.'],
-    '06 / START A COLLECTION': ['06 / 开始采集', '06 / 수집 시작'],
+    'START A COLLECTION': ['开始采集', '수집 시작'],
     'What does your robot': ['您的机器人', '로봇은 무엇을'],
     'need to learn?': ['需要学习什么？', '배워야 하나요?'],
     'Full Name': ['姓名', '성명'],
@@ -743,7 +835,24 @@ function translateValue(value: string, language: Exclude<Language, 'en'>) {
     const trimmed = value.trim();
     if (!trimmed) return value;
 
-    const translated = getTranslation(trimmed, language);
+    let translated = getTranslation(trimmed, language);
+
+    // If not found directly, normalize whitespace (handles multi-line JSX with newlines & indentations)
+    if (!translated) {
+        const collapsed = trimmed.replace(/[\r\n\s]+/g, ' ');
+        translated = getTranslation(collapsed, language);
+
+        // Also normalize hyphens vs em-dashes
+        if (!translated) {
+            const dashNormalized = collapsed.replace(/[—–]/g, '-');
+            translated = getTranslation(dashNormalized, language);
+        }
+        if (!translated) {
+            const emDashNormalized = collapsed.replace(/\s*-\s*/g, '—');
+            translated = getTranslation(emDashNormalized, language);
+        }
+    }
+
     if (!translated) return value;
 
     const leading = value.match(/^\s*/)?.[0] ?? '';
